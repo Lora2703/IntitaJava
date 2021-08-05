@@ -8,6 +8,7 @@ public class Customer {
 
     public Customer(String name, int measurement) {
         this.name = name;
+        this.measurement = measurement;
     }
 
     public void addItems(Clothing[] aItems) {

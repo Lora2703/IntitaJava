@@ -2,10 +2,8 @@ package duke.choise;
 
 public class ShopApp {
     public static void main(String[] args) {
-        double tax = 0.2;
-        double total = 0;
+
         Customer c1 = new Customer("Pinky", 3);
-        c1.setSize("S");
 
         System.out.println("Welcome to our shop " + c1.getName());
 

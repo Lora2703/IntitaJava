@@ -10,17 +10,15 @@ public class Customer {
         this.name = name;
     }
 
-
-
-    public void addItems(Clothing[] aItems){
+    public void addItems(Clothing[] aItems) {
         items = aItems;
     }
 
-    public Clothing[] getItems(){
+    public Clothing[] getItems() {
         return items;
     }
 
-    public double getTotalClothingCoast (){
+    public double getTotalClothingCoast() {
         double total = 0.0;
         for (Clothing item : items) {
             total = total + item.getPrice();
@@ -43,12 +41,13 @@ public class Customer {
     public void setSize(String size) {
         this.size = size;
     }
+
     public void setSize(int measurement) {
         switch (measurement) {
             case 1:
             case 2:
             case 3:
-                 this.size = "S";
+                this.size = "S";
                 break;
             case 4:
             case 5:

@@ -3,7 +3,7 @@ package duke.choise;
 public class Clothing {
     private String description;
     private double price;
-    private String size="M";
+    private String size;
     static final double MINIMUM_PRICE = 10;
     static final double TAX_RATE = 0.2;
 
@@ -22,7 +22,7 @@ public class Clothing {
     }
 
     public double getPrice() {
-        return price*(1+TAX_RATE);
+        return price * (1 + TAX_RATE);
     }
 
     public void setPrice(double price) {

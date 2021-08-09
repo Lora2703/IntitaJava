@@ -1,13 +1,13 @@
 package ua.intita.qa;
 
 public class Product {
-    int id;
-    String name;
-    long UPC;
-    String producer;
-    double price;
-    int shelfLife;
-    int number;
+    private int id;
+    private String name;
+    private long UPC;
+    private String producer;
+    private double price;
+    private int shelfLife;
+    private int number;
 
     public Product(int id, String name, long UPC, String producer, double price, int shelfLife, int number) {
         this.id = id;

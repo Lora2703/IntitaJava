@@ -4,9 +4,7 @@ public class Toffee extends Sweet {
     public String kindOfToffee;
 
     public Toffee(String name, double weight, double sugar, String kindOfToffee) {
-        this.name = name;
-        this.weight = weight;
-        this.sugar = sugar;
+        super(name, weight, sugar);
         this.kindOfToffee = kindOfToffee;
     }
 }
